@@ -113,3 +113,6 @@ class ReadLaterView(View):
             
         return HttpResponseRedirect("/")
  
+ 
+def dummy(request):
+    pass
